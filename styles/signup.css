@@ -1,0 +1,42 @@
+input[type="text"] {
+	height: 100%;
+	width: 100%;
+}
+
+input[type="password"] {
+	width: 100%;
+	height: 100%;
+}
+
+button {
+	height: 100%;
+	width: 100%;
+}
+
+.usrReg-field {
+	height: 10%;
+	width: 60%;
+	margin-right: 0;
+}
+
+#signup-layout {
+	-webkit-flex-direction: column;
+	-moz-box-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+/*	justify-content: space-between;*/
+	height: 100%;
+	width: 100%;
+	background: #2B2B2B;
+}
+
+#user-registration {
+	-webkit-flex-direction: column;
+	-moz-box-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 80%;	
+}

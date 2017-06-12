@@ -1,0 +1,56 @@
+a {
+	cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+	-webkit-flex-direction: row;
+	-moz-box-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	height: 10%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.spacing {
+	flex: 1;
+}
+
+.header-link {
+	text-align: center;
+	width: 100%;
+}
+
+#home-link {
+	flex: 1;
+}
+
+#mainpage-link {
+	flex: 1;
+	align-items: center;
+}
+
+#user-options {
+	justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#login-out {
+	flex: 1;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+#login-button {
+	height: 100%;
+	width: 100%;
+}
+
+#logout-button {
+	height: 100%;
+	width: 100%;
+}

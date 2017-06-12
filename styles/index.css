@@ -1,0 +1,163 @@
+img.slide {
+	width: auto;
+	height: 90%;
+	max-height: 90%;
+}
+
+#index-layout {
+	-webkit-flex-direction: column;
+	-moz-box-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background: #2B2B2B;
+}
+
+#index-middle {
+	-webkit-flex-direction: row;
+	-moz-box-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+	height: 90%;
+	width: 100%;
+}
+
+#social {
+	-webkit-flex-direction: row;
+	-moz-box-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	height: 100vh;
+	width: 100vw;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(6, 6, 5, 0.68);
+}
+
+.post-links {
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+}
+
+#like-button {
+	height: 20%;
+	width: 20%;
+}
+
+#comment-form {
+	margin: 0 0 0 0;
+	width: 70%;
+	height: 20%;
+	align-items: center;
+}
+
+#comment-input {
+	width: 80%;
+	height: 100%;
+}
+
+#comment-submit {
+	-webkit-appearance: button;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 100%;
+	width: 20%;
+}
+
+#like-counter {
+	align-self: center;
+}
+
+#post-comments {
+	width: 100vw;
+	height: 50vh;
+	overflow-y: scroll;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-moz-box-direction: column;
+	-ms-flex-direction: column;
+}
+
+.comment-container {
+	min-height: 33%;
+	width: 60%;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	-moz-box-direction: row;
+	-ms-flex-direction: row;
+	justify-content: space-between;
+	border-bottom: thick;
+}
+
+.commenter-info {
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-moz-box-direction: column;
+	-ms-flex-direction: column;
+}
+
+.comment-text {
+	width: 70%;
+}
+
+.slideshow {
+	height: 100%;
+	width: 100%;
+	-webkit-flex-direction: row;
+	-moz-box-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#slideshow-middle {
+	justify-content: center;
+    height: 100%;
+    width: 75%;
+}
+
+.index-slide {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.parent {
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	height: 60%;
+}
+
+.prev, .next {
+	background-color: #7D1935;
+	height: 100%;
+	width: 100%;
+}
+
+.arrow {
+	height: 50%;
+	width: 100%;
+}
+
+.prev {
+	-webkit-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+	clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+.next {
+	-webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+	clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.7);
+}

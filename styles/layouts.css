@@ -1,0 +1,37 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0 0 0 0;
+	font-family: Arizonia;
+	overflow-y: scroll;
+}
+
+a {
+  cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+	background-color: white;/*#2B2B2B;*/
+	color: #6DBDD6;
+	font-family: Arizonia;
+	border-color: white;
+	font-size: 100%;
+}
+
+.flex-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.modal-box {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+}

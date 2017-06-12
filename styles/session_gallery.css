@@ -1,0 +1,26 @@
+img {
+	width: 99%;
+	height: auto;
+}
+
+#session-gallery {
+	-webkit-flex-direction: column;
+	-moz-box-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 80%;
+	width: 15%;
+	background: black;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.session-gallery-item {
+	border-width: thick;
+    border: #0b2c4c;
+    border-style: groove;
+}
+
+.session-gallery-img {
+
+}
